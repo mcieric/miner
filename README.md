@@ -27,7 +27,7 @@ cd miner
 Create an .env file. Make sure your Vana Private key is set to your wallet private key (0x...)
 ```
 VANA_PRIVATE_KEY=abcdefabcef
-VANA_NETWORK=moksha
+VANA_NETWORK=mainnet
 OLLAMA_API_URL=http://ollama:11434/api
 ```
 Run the miner:
