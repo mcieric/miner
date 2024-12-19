@@ -538,9 +538,9 @@ check_vana_private_key() {
 check_vana_network() {
   load_env_file
   if [ -z "${VANA_NETWORK}" ]; then
-    echo "Please enter the network (default is 'moksha'):"
+    echo "Please enter the network (default is 'mainnet'):"
     read -r VANA_NETWORK
-    VANA_NETWORK="${VANA_NETWORK:-moksha}"
+    VANA_NETWORK="${VANA_NETWORK:-mainnet}"
     echo "VANA_NETWORK=${VANA_NETWORK}" >> .env
   else
     echo "VANA_NETWORK is set to: $VANA_NETWORK."
