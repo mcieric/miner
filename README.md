@@ -1,4 +1,4 @@
-# SixGPT Miner
+# °°SixGPT Miner°°
 This is the official SixGPT miner.
 
 # About
